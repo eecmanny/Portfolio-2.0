@@ -1,3 +1,4 @@
+// All exported from other pages jsx
 import { useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
