@@ -1,7 +1,7 @@
 // Import into Portfolio jsx
 export default function Certifications() {
   return (
-    <div>
+    <main>
       <h1>Certifications</h1>
       <ul>
         <li>
@@ -11,6 +11,6 @@ export default function Certifications() {
           Code of Ethic.
         </li>
       </ul>
-    </div>
+    </main>
   );
 }

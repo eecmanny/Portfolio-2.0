@@ -1,7 +1,7 @@
 // Import into Portfolio jsx
 export default function AboutMe() {
   return (
-    <div>
+    <main>
 
       <a className="navbar-logo" href="#home">
           {/* will search for images and files in the public folder */}
@@ -11,6 +11,6 @@ export default function AboutMe() {
        <p>
         summary of me
       </p>
-    </div>
+    </main>
   );
 }

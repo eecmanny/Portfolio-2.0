@@ -1,7 +1,7 @@
 // Import into Portfolio jsx
 export default function Contact() {
   return (
-    <div>
+    <main>
       <h1>Contact Page</h1>
       <p>
         <div>
@@ -32,6 +32,6 @@ export default function Contact() {
           </section>
         </div>
       </p>
-    </div>
+    </main>
   );
 }

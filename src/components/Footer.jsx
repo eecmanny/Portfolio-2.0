@@ -5,7 +5,7 @@ const footerStyle ={
   color: "white",
   textAlign: "center",
   padding: "10px",
-  position: "fixed",
+
   left: "0",
   bottom: "0",
   height: "100px",

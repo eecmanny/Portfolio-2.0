@@ -6,23 +6,33 @@ const headerStyle = {
   navStyle: {
     backgroundColor: "grey",
     color: "white",
-    textAlign: "center",
-    padding: "10px",
-    height: "100px",
-    width: "100%",
+  // position: "fixed",
   },
   nav: {
     display: "flex",
-    // flex-direction: "row",
-    // flex-wrap: "wrap",
+    width: "100%",
   },
+
   navIcons: {
     display: "flex",
-    // flex-direction: "row",
+    width: "75%",
+    justifyContent: "flex-end",
+  },
+
+  navIconsButton: {
+    display: "flex",
+    
   },
 
   navLogo: {
     display: "flex",
+    width: "25%",
+    justifyContent: "space-around",
+  },
+
+  logo: {
+    display: "flex",
+    justifyContent: "space-around",
   },
 
 
@@ -30,7 +40,7 @@ const headerStyle = {
     width: "100px",
     height: "100px",
     borderRadius: "50%",
-    border: "2px solid black",
+    border: "1px solid black",
   }
 }
 
@@ -41,7 +51,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     <header style={headerStyle.navStyle}>
       <nav style={headerStyle.nav}>
         <section style={headerStyle.navLogo}>
-          <ul className="nav nav-tabs">
+          <ul style={headerStyle.logo} className="nav nav-tabs">
             <li className="nav-item">
               <a className="navbar-logo" href="#home">
                 <h1 dir="website-p">
@@ -56,8 +66,8 @@ function NavTabs({ currentPage, handlePageChange }) {
             </li>
           </ul>
         </section>
-        <section >
-          <ul style={headerStyle.navIcons}>
+        <section style={headerStyle.navIcons}>
+          <ul style={headerStyle.navIconsButtons}>
             <li className="nav-item">
               <a
                 href="#home"
