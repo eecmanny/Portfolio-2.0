@@ -1,20 +1,14 @@
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 const footerStyle ={
-  backgroundColor: "grey",
-  color: "white",
-  textAlign: "center",
-  padding: "10px",
 
-  left: "0",
-  bottom: "0",
-  height: "100px",
-  width: "100%",
+
+
 }
 
 function FooterTabs({ currentPage, handlePageChange }) {
   return (
-    <footer style={footerStyle}>
+    <footer >
     <ul className="footer footer-tabs">
 
       <li className="footer-item">
