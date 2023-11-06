@@ -1,20 +1,35 @@
-// Import into Portfolio jsx
+import React, { useEffect } from 'react';
+
 export default function Home() {
+  useEffect(() => {
+    // Initialize Typed.js when the component mounts
+    var typed = new Typed(".auto-type", {
+      strings: ["test1.", "test2."],
+      typeSpeed: 30,
+      backSpeed: 30,
+      loop: false,
+    });
+
+    // Clean up the Typed instance when the component unmounts
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <section className="homeSection">
       <h1>Home Page</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+        <h2><span className="auto-type"></span></h2>
+
+        Welcome to my online portfolio! I am Emmanuel Cordero, and I am thrilled to share my creative journey with you.
+        As an Engineering Technician and a Real Estate Sales Associate, I have dedicated myself to honing my skills and
+        exploring the vast world of Web Development. With a passion for mathematics, helping people, advertising, and
+        making processes more efficient, I strive to create compelling and impactful web development experiences.
+        Through this portfolio, I invite you to delve into my projects and witness the culmination of my dedication,
+        creativity, and unwavering commitment to excellence!
       </p>
     </section>
   );
 }
+
