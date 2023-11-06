@@ -1,0 +1,97 @@
+.contact-layout {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex: 1 1 0; */
+    max-width: 100%;
+    /* margin: 2% auto; */
+    margin: var(--website-margins);
+    padding: 4%;
+    justify-content: space-around;
+  }
+  
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    align-content: space-between;
+/* 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2%; */
+  }
+
+
+
+  .contactCardTitle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+}
+  
+.contactCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    align-content: space-between;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+  }
+  
+  .formCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+  }
+  
+  .info-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* margin: 2%;
+    padding: 2%; */
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+  }
+  
+  .contact-Page-layout {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 2% auto;
+    flex-wrap: wrap;
+  }
+  
+  .contact-Page-title {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+  }

@@ -1,7 +1,7 @@
 // Import into Portfolio jsx
 export default function Home() {
   return (
-    <main>
+    <section className="homeSection">
       <h1>Home Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
@@ -15,6 +15,6 @@ export default function Home() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p>
-    </main>
+    </section>
   );
 }

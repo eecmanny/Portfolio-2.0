@@ -1,0 +1,54 @@
+.navStyle {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  
+  .navIcons {
+      display: flex;
+      width: 60%;
+      justify-content: flex-end;
+      }
+  
+  
+  .navLogo {
+    display: flex;
+    /* width: 40%; */
+    align-items: flex-start;
+  }
+  
+  .navLogoText {
+    display: flex;
+  }
+  
+  .navLogo img {
+    /* width: 75%;
+    height: 50%; */
+    border-radius: 50%;
+    border: 1px solid lightskyblue;
+  }
+  
+  header nav section {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+  }
+  
+  /* header nav section ul {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+    } */
+  
+  .navIconsButtons {
+    display: flex;
+    /* width: 75%; */
+      justify-content: flex-end;
+  }
+  
+  header nav section ul li {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+  }

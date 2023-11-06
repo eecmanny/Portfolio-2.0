@@ -1,12 +1,13 @@
 // All exported from other pages jsx
 import { useState } from 'react';
-import NavTabs from './NavTabs';
-import FooterTabs from './Footer';
-import Home from './pages/Home';
-import Portfolio from './pages/Portfolio';
-import AboutMe from './pages/AboutMe';
-import Certifications from './pages/Certifications';
-import Contact from './pages/Contact';
+import NavTabs from './NavBar/NavTabs';
+import FooterTabs from './Footer/Footer';
+import Home from './pages/Home/Home';
+import Portfolio from './pages/Portfolio/Portfolio';
+import AboutMe from './pages/AboutMe/AboutMe';
+import Certifications from './pages/Certifications/Certifications';
+import Contact from './pages/Contact/Contact';
+
 
 
 export default function PortfolioContainer() {

@@ -10,8 +10,7 @@ function FooterTabs({ currentPage, handlePageChange }) {
   return (
     <footer >
     <ul className="footer footer-tabs">
-
-      <li className="footer-item">
+      <li className="footerItem">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -20,7 +19,7 @@ function FooterTabs({ currentPage, handlePageChange }) {
           Home
         </a>
       </li>
-      <li className="footer-item">
+      <li className="footerItem">
         <a
           href="https://www.linkedin.com/in/emmanuel-cordero-a91519195"
           onClick={() => {
@@ -30,7 +29,7 @@ function FooterTabs({ currentPage, handlePageChange }) {
           LinkedIn
         </a>
       </li>
-      <li className="footer-item">
+      <li className="footerItem">
       <a
           href="https://github.com/eecmanny"
           onClick={() => {
@@ -40,7 +39,7 @@ function FooterTabs({ currentPage, handlePageChange }) {
           Github
         </a>
       </li>
-      <li className="footer-item">
+      <li className="footerItem">
       <a
           href="#https://www.linkedin.com/in/emmanuel-cordero-a91519195"
           onClick={() => {

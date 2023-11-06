@@ -1,0 +1,33 @@
+.certificationSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CertificatiionTitle {
+    display: flex;
+    align-items: center;
+    margin: 2%;
+    border-bottom: 1px solid lightskyblue;
+
+}
+
+.CertificatiionList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    /* padding: 2%;
+    border: 1px solid lightskyblue;
+    border-radius: 5px; */
+}
+
+.CertificatiionList li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+}

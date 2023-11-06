@@ -1,12 +1,12 @@
 // Import into Portfolio jsx
 export default function Contact() {
   return (
-    <main>
-      <h1>Contact Page</h1>
+    <section className="contact-Page-layout">
+      <h1 className="contact-Page-title">Contact Page</h1>
       <p className="contact-layout">
         <div>
-          <section className="contact">
-            <h3>Contacts</h3>
+          <section className="contactInfo">
+            <h3 className="contactCardTitle">Contacts</h3>
             <ul className="info-card">
               <li><a className="c-info" href="tel:860-975-7480">860-975-7480</a></li>
               <li><a className="c-info" href="mailto:eec123manny@gmail.com">eec123manny@gmail.com</a></li>
@@ -18,9 +18,9 @@ export default function Contact() {
           </section>
         </div>
         <div>
-          <section className="contact-card">
+          <section className="contactCard">
             <h3>Contact Form</h3>
-            <form className="card">
+            <form className="formCard">
               <label for="name">Name:</label>
               <input type="text" id="name" name="name" placeholder="Your name.." required></input>
               <label for="email">Email:</label>
@@ -32,6 +32,6 @@ export default function Contact() {
           </section>
         </div>
       </p>
-    </main>
+    </section>
   );
 }
