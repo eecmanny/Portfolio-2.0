@@ -4,7 +4,7 @@
 
   * Application must use React to render content. - Done
 
-  * Application has a single `Header` component that appears on multiple pages, with a `Navigation` component within it that’s used to conditionally render About Me, Portfolio, Contact, and Resume sections. - Need to fix
+  * Application has a single `Header` component that appears on multiple pages, with a `Navigation` component within it that’s used to conditionally render About Me, Portfolio, Contact, and Resume sections. - Done
 
   * Application has a single `Project` component that’s used multiple times in the Portfolio section. - Done
 
@@ -60,4 +60,10 @@ You are required to submit BOTH of the following for review:
 
 https://github.com/eecmanny/Portfolio-2.0
 
-https://654b20551d56ba6fb58e5642--fastidious-heliotrope-2a007b.netlify.app/
+https://654c152b807a735b68e5dcdc--fastidious-heliotrope-2a007b.netlify.app/
+
+## Resources
+React 22 module,
+Tutor,
+TA
+
