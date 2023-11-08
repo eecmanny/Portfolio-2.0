@@ -92,7 +92,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 // Check to see if the currentPage is `Certifications`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
                 className={currentPage === 'Certifications' ? 'nav-link active' : 'nav-link'}
               >
-                Certification
+                Resume & Certification
               </a>
             </li>
             <li className="nav-item">
@@ -105,7 +105,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 Contact
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item nav-items-border">
               <button variant="primary" size="lg" active
               href="#contact"
               onClick={() => handlePageChange(

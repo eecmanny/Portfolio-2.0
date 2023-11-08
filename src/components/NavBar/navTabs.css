@@ -18,6 +18,22 @@
     align-items: flex-start;
   }
   
+  .nav-item {
+    /* margin-left: 1px; */
+    margin-right: 1px;
+    /* border-left: 1px solid lightskyblue; */
+    border-right: 1px solid lightskyblue;
+
+  }
+
+  .nav-items-border {
+    /* margin-left: 1px; */
+    /* margin-right: 1px; */
+    /* border-left: 1px solid lightskyblue; */
+    border-right: 1px solid gray;
+
+  }
+
   .navLogoText {
     display: flex;
   }
