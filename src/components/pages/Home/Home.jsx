@@ -1,12 +1,21 @@
 import React, { useEffect } from 'react';
 
 export default function Home() {
+  // useEffect(() => {
+  //   // Initialize Typed.js when the component mounts
+  //   var typed = new Typed(".auto-type", {
+  //     strings: ["< a > < / a >", "< h1 > < / h1 >", "< p > < / p >"],
+  //     typeSpeed: 200,
+  //     backSpeed: 50,
+  //     loop: false,
+  //   });
+
   useEffect(() => {
     // Initialize Typed.js when the component mounts
     var typed = new Typed(".auto-type", {
-      strings: ["test1.", "test2."],
-      typeSpeed: 30,
-      backSpeed: 30,
+      strings: ["Welcome to my online portfolio! I am Emmanuel Cordero, and I am thrilled to share my creative journey with you.", "As an Engineering Technician and a Real Estate Sales Associate, I have dedicated myself to honing my skills and exploring the vast world of Web Development.", "With a passion for mathematics, helping people, advertising, and making processes more efficient, I strive to create compelling and impactful web development experiences.", "Through this portfolio, I invite you to delve into my projects and witness the culmination of my dedication, creativity, and unwavering commitment to excellence!"],
+      typeSpeed: 60,
+      backSpeed: 25,
       loop: false,
     });
 
@@ -21,13 +30,13 @@ export default function Home() {
       <h1>Home Page</h1>
       <p>
         <h2><span className="auto-type"></span></h2>
-
+{/* 
         Welcome to my online portfolio! I am Emmanuel Cordero, and I am thrilled to share my creative journey with you.
         As an Engineering Technician and a Real Estate Sales Associate, I have dedicated myself to honing my skills and
         exploring the vast world of Web Development. With a passion for mathematics, helping people, advertising, and
         making processes more efficient, I strive to create compelling and impactful web development experiences.
         Through this portfolio, I invite you to delve into my projects and witness the culmination of my dedication,
-        creativity, and unwavering commitment to excellence!
+        creativity, and unwavering commitment to excellence! */}
       </p>
     </section>
   );
