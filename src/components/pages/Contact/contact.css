@@ -95,3 +95,14 @@
     max-width: 100%;
     justify-content: center;
   }
+
+  .webPage {
+    /* margin-top: 400px;
+    margin-bottom: 500px; */
+    /* padding-top: 400px;
+    padding-bottom: 100px; */
+
+    padding-top: 350px;
+    padding-bottom: 100px;
+        min-height: 25vh;
+}

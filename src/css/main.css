@@ -2,11 +2,45 @@
 
 
 :root {
-  --website-margins: 2%;
+  /* --website-margins: 2%;
+  display: flex; */
+
 }
 
+.fullPage {
 
-header {
+  display: flex;
+  margin-bottom: 100px;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+  background-color: #fff;
+  color: #000;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 100%;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 1.5em;
+  box-sizing: border-box;
+}
+
+.fullHeader {
+}
+
+.fullMain {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: 100%;
+}
+
+.fullFooter {
+  display: flex;
+
+}
+
+/* header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,8 +49,7 @@ header {
   text-Align: "center";
   background-color: gray;
   color: #fff;
-  /* position: fixed; */
-}
+} */
 
 
 
@@ -27,22 +60,6 @@ h1 {
 h2 {
   font-size: 100%;
 }
-
-
-nav div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 2%;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-nav div :hover {
-  color: #fff;
-}
-
-
 
 
 

@@ -17,6 +17,9 @@ export default function Portfolio() {
     // });
 
     return (
+        <div>
+        <img className="page-background" src="\images\background\pexels-pixabay-270366.jpg" alt="laptop background image"></img>
+
         <section className="work">
             <LazyLoad className="wImageRowBoot" threshold={0.75}>  
             <a className="wImageRow" href="https://eecmanny.github.io/Weather-To-Watch/">
@@ -65,6 +68,7 @@ export default function Portfolio() {
                 </a>
             </div> */}
         </section>
+        </div>
     );
 }
 

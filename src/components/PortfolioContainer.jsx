@@ -37,12 +37,12 @@ export default function PortfolioContainer() {
   const BottomHandlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="fullPage">
       {/* We are passing the currentPage from state and the function to update it */}
-      <NavTabs currentPage={currentPage} handlePageChange={TopHandlePageChange} />
+      <NavTabs className="fullHeader" currentPage={currentPage} handlePageChange={TopHandlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
-      <main className="mx-3">{renderPage()}</main>
-      <FooterTabs currentPage={currentPage} handlePageChange={BottomHandlePageChange} />
+      <main className="mx-3 fullMain">{renderPage()}</main>
+      <FooterTabs className="fullFooter" currentPage={currentPage} handlePageChange={BottomHandlePageChange} />
     </div>
   );
 }

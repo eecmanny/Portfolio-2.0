@@ -4,6 +4,10 @@
 
 function FooterTabs({ currentPage, handlePageChange }) {
   return (
+    
+
+
+
     <footer >
     <ul className="footer footer-tabs">
       <li className="footerItem">

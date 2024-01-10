@@ -1,3 +1,18 @@
+.logoBody {
+  /* display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+  justify-content: space-between; */
+}
+
+
+nav {
+display: inline;
+width: 100%;
+height: 17%;
+}
+
 .navStyle {
     display: flex;
     width: 100%;
@@ -16,7 +31,12 @@
     display: flex;
     /* width: 40%; */
     align-items: flex-start;
+    flex-direction: column;
   }
+
+  /* .navbar-brand, .navbar-tabs {
+    flex-direction: column;
+} */
   
   .nav-item {
     /* margin-left: 1px; */
@@ -38,7 +58,7 @@
     display: flex;
   }
   
-  .navLogo img {
+  .navLogoImage {
     /* width: 75%;
     height: 50%; */
     border-radius: 50%;
