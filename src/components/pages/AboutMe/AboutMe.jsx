@@ -1,7 +1,7 @@
 // Import into Portfolio jsx
 export default function AboutMe() {
   return (
-    <section className="profile-section">
+    <section className="profile-section webPageAboutMe">
 
       <a className="profile-pic" href="#home">
           {/* will search for images and files in the public folder */}

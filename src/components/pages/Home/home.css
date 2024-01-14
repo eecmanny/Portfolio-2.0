@@ -22,3 +22,25 @@
     padding-bottom: 100px; */
         min-height: 50%;
 }
+
+.webPageHome {
+    /* margin-top: 400px;
+    margin-bottom: 500px; */
+    /* padding-top: 400px;
+    padding-bottom: 100px; */
+
+    padding-top: 350px;
+    padding-bottom: 100px;
+        min-height: 25vh;
+}
+
+.webPageHome {
+    /* margin-top: 400px;
+    margin-bottom: 500px; */
+    /* padding-top: 400px;
+    padding-bottom: 100px; */
+
+background-color: lightgrey;
+background-image: url(../../../../public/images/background/pexels-kevin-ku-577585.jpg);
+/* height: 100%; */
+}

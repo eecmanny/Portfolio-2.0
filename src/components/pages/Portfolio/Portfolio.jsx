@@ -17,8 +17,7 @@ export default function Portfolio() {
     // });
 
     return (
-        <div>
-        <img className="page-background" src="\images\background\pexels-pixabay-270366.jpg" alt="laptop background image"></img>
+        <div className="webPagePort">
 
         <section className="work">
             <LazyLoad className="wImageRowBoot" threshold={0.75}>  

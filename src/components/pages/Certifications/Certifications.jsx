@@ -3,7 +3,7 @@ const { Panel } = Collapse;
 
 export default function Certifications({ currentPage, handlePageChange }) {
   return (
-    <div className="webPage">
+    <div className="webPageCert">
       {/* <div>
                 <img className="page-background" src="\images\background\programming-hd-2eo94s73hxhwjcta.jpg" alt="laptop background image"></img>
             </div> */}
@@ -11,8 +11,8 @@ export default function Certifications({ currentPage, handlePageChange }) {
         <h1 className="CertificatiionTitle">Resume</h1>
         <ul className="CertificatiionList">
           <li className="nav-item nav-items-border">
-            <Collapse className='codeOfEthic'>
-              <h3>
+            <Collapse className='cBoxes'>
+              <h3 className= "pTitles">
                 view Resume
               </h3>
               <Panel header="Resume" key="1">
@@ -42,7 +42,7 @@ export default function Certifications({ currentPage, handlePageChange }) {
 
 
 
-          <Collapse className='fullStack'>
+          <Collapse className='fullStack cBoxes'>
             <h3>
               Full Stack Web Development Certificate from the UCONN.
             </h3>
@@ -82,7 +82,7 @@ export default function Certifications({ currentPage, handlePageChange }) {
 
           </Collapse>
 
-          <Collapse className='codeOfEthic'>
+          <Collapse className='codeOfEthic cBoxes'>
             <h3>
               Code of Ethic.
             </h3>
@@ -91,13 +91,6 @@ export default function Certifications({ currentPage, handlePageChange }) {
               </p>
             </Panel>
           </Collapse>
-
-          <li>
-            placeholder
-          </li>
-          <li>
-            placeholder
-          </li>
         </ul>
       </section>
     </div>

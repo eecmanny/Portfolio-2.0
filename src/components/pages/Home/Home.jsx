@@ -20,7 +20,7 @@ export default function Home() {
 
     <section className="homeSection webPageHome">
 
-<img className="page-background" src="\images\background\pexels-kevin-ku-577585.jpg" alt="laptop background image"></img>
+{/* <img className="page-background" src="\images\background\pexels-kevin-ku-577585.jpg" alt="laptop background image"></img> */}
       <h1>Home Page</h1>
       <div>
         <div className="page-background">
