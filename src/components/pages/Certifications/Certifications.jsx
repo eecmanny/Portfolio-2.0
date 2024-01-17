@@ -79,7 +79,75 @@ export default function Certifications({ currentPage, handlePageChange }) {
                 <h4>PWA</h4>
               </p>
             </Panel>
+          </Collapse>
 
+                    <Collapse className='angular cBoxes'>
+            <h3>
+              Angular.
+            </h3>
+            <Panel header="Certificate" key="1">
+              <p>
+              </p>
+            </Panel>
+          </Collapse>
+
+                    <Collapse className='typescript cBoxes'>
+            <h3>
+              TypeScript
+            </h3>
+            <Panel header="Certificate" key="1">
+              <p>
+              </p>
+            </Panel>
+          </Collapse>
+
+            <Collapse className='cloudServers cBoxes'>
+            <h3>
+              Cloud Servers
+            </h3>
+{/*             <Panel header="Certificate" key="1">
+              <p>
+              </p>
+            </Panel> */}
+                                  <Panel header="Amazon Web Service" key="2">
+              <p>
+                In Process
+              </p>
+            </Panel>
+                                  <Panel header="Azure" key="3">
+              <p>
+                In Process
+              </p>
+            </Panel>
+                                  <Panel header="Google Cloud" key="4">
+              <p>
+               In Process
+              </p>
+            </Panel>
+          </Collapse>
+
+            <Collapse className='python cBoxes'>
+            <h3>
+              Python
+            </h3>
+            <Panel header="Certificate In Process" key="1">
+              <p>
+              </p>
+            </Panel>
+
+            <Panel h2 header="Front-end Proficiencies" key="1">
+              <p>
+              </p>
+            </Panel>
+            <Panel header="Back-end Proficiencies" key="2">
+              <p>
+              </p>
+            </Panel>
+              
+            <Panel header="Other Proficiencies" key="3">
+              <p>
+              </p>
+            </Panel>
           </Collapse>
 
           <Collapse className='codeOfEthic cBoxes'>
