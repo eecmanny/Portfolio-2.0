@@ -10,6 +10,13 @@
     height: 10%;
     background-color: aquamarine;
     color: white;
+    background-color: lightgrey;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
 }
 
 .webPageHome {
@@ -34,13 +41,33 @@
         min-height: 25vh;
 }
 
-.webPageHome {
-    /* margin-top: 400px;
-    margin-bottom: 500px; */
-    /* padding-top: 400px;
-    padding-bottom: 100px; */
-
+/* .webPageHome {
 background-color: lightgrey;
 background-image: url(../../../../public/images/background/pexels-kevin-ku-577585.jpg);
-/* height: 100%; */
-}
+top: 0;
+left: 0;
+width: 100%;
+height: 150%;
+object-fit:cover;
+z-index: -1;
+} */
+
+
+.webPageHome {
+
+    background-color: lightgrey;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    }
+
+    .inner-main-section {
+        padding: 20px;
+        background-color: white;
+        opacity: 0.9;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    }
