@@ -9,22 +9,32 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='logoBody'>
 
+      {/* <Link as={NextLink} href='/' {...linkStyles} _hover={{ textDecoration: 'underline' }}>
+          Home
+        </Link>
+        <Link as={NextLink} href="/projects" {...linkStyles} _hover={{ textDecoration: 'underline' }}>
+          Projects
+        </Link>
+        <Link href="/resume.pdf" download="resumepdf.pdf" {...linkStyles} _hover={{ textDecoration: 'underline' }}>
+          Resume <DownloadIcon  pb='1px'/>
+        </Link> */}
+
 
       <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div className="container-fluid">
-        <a
-              href="#home"
-              onClick={() => handlePageChange('Home')}
-              className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-            >
-          <a className="navbar-brand navLogo" href="#home"
-          >Portfolio 2.0
-            <img className="navLogoImage" src="./images/logoImage.jpg" alt="profileImage" />
-          </a>
+          <a
+            href="#home"
+            onClick={() => handlePageChange('Home')}
+            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+          >
+            <a className="navbar-brand navLogo" href="#home"
+            >Portfolio 2.0
+              <img className="navLogoImage" src="./images/logoImage.jpg" alt="profileImage" />
+            </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
-            </a>
+          </a>
 
 
           <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -91,20 +101,31 @@ function NavTabs({ currentPage, handlePageChange }) {
                     Contact
                   </a>
                 </li>
-                <li className="nav-item">
-                  {/* <a class="nav-link" href="#">Link</a> */}
+                {/* <li className="nav-item">
                   <button type="button" className="btn btn-secondary" Secondary active
                     href="#contact"
                     onClick={() => handlePageChange(
-                      window.open("https://docs.google.com/document/d/e/2PACX-1vTrusYCQekVdUKXkYAR9bZrYgpU7sWORjorwXTESVVmqLzDziCX9bwzMp5n-atdfA/pub")
+                      window.open("/assets/Coding Resume.pdf")
                     )}
-
-                  // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                  // className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                    >
+                    Download Resume
+                  </button>
+                </li> */}
+                <li className="nav-item">
+                  <button
+                    type="button"
+                    className="btn btn-secondary"
+                    active
+                    href="#contact"
+                    onClick={() => {
+                      handlePageChange(window.open("/assets/Coding Resume.pdf"));
+                      window.location.reload(false);
+                    }}
                   >
                     Download Resume
                   </button>
                 </li>
+
               </ul>
             </div>
           </div>

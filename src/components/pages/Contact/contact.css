@@ -1,109 +1,3 @@
-.contact-layout {
-    display: flex;
-    /* flex-direction: row; */
-    flex-wrap: wrap;
-    justify-content: center;
-    /* flex: 1 1 0; */
-    max-width: 100%;
-    /* margin: 2% auto; */
-    margin: var(--website-margins);
-    padding: 4%;
-    justify-content: space-around;
-    z-index: 1;
-  }
-  
-  .contactInfo {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 105%;
-    height: 100%;
-    margin: 2%;
-    padding: 2%;
-    border: 1px solid lightskyblue;
-    border-radius: 5px;
-    align-content: space-between;
-    z-index: 1;
-/* 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 2%; */
-  }
-
-
-
-  .contactCardTitle {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 2%;
-    padding: 2%;
-    border: 1px solid lightskyblue;
-    border-radius: 5px;
-    z-index: 1;
-}
-  
-.contactCard {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 110%;
-    height: 100%;
-    margin: 2%;
-    padding: 2%;
-    border: 1px solid lightskyblue;
-    border-radius: 5px;
-    align-content: space-between;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 2%;
-    padding: 2%;
-    border: 1px solid lightskyblue;
-    border-radius: 5px;
-    z-index: 1;
-  }
-  
-  .formCard {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 2%;
-    padding: 2%;
-    border: 1px solid lightskyblue;
-    border-radius: 5px;
-    z-index: 1;
-  }
-  
-  .info-card {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    /* margin: 2%;
-    padding: 2%; */
-    border: 1px solid lightskyblue;
-    border-radius: 5px;
-    z-index: 1;
-  }
-  
-  .contact-Page-layout {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    margin: 2% auto;
-    flex-wrap: wrap;
-    z-index: 1;
-  }
-  
-  .contact-Page-title {
-    display: flex;
-    max-width: 100%;
-    justify-content: center;
-    z-index: 1;
-  }
-
   .webPage {
     /* margin-top: 400px;
     margin-bottom: 500px; */
@@ -113,30 +7,39 @@
     padding-top: 350px;
     padding-bottom: 100px;
         min-height: 25vh;
-        z-index: 0;
+        z-index: 1;
 }
 
 
-/* .webPageContact {
-  background-color: lightgrey;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: -1;
-} */
+.webPageContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  margin-bottom: 6%;
+
+}
 
 .cPage-background {
-  width: 10%;
-  height: 10%;
-  background-color: aquamarine;
-  color: white;
-  background-color: lightgrey;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: 0;
+background-color: lightgrey;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+position: fixed;
+  /* 
+
+z-index: 0; */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  margin-top: 2%;
+}
+
+.contactAdjust {
+  margin-right: 1%;
 }

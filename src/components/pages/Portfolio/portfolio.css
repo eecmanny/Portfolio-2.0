@@ -41,24 +41,6 @@
 }
 
 
-
-
-/* .webPagePort {
-    padding-top: 400px;
-    padding-bottom: 100px;
-    
-        min-height: 25vh;
-background-color: lightgrey;
-background-image: url(../../../../public/images/background/istockphoto-537331500-612x612.jpg);
-
-top: 0;
-left: 0;
-width: 100vw;
-height: 150%;
-object-fit: cover;
-z-index: 1;
-} */
-
 .portBackgroundImg {
     background-color: lightgrey;
     top: 0;

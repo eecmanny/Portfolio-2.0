@@ -11,7 +11,6 @@
     align-items: center;
     z-index: 1;
     border: #000;
-    /* padding: 20px; */
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 100px;
@@ -22,6 +21,10 @@
     border-radius: 5px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
+
+/* .profileImage {
+
+} */
 
 .profile-pic {
     width: 250px;

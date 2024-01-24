@@ -11,12 +11,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
     "@floating-ui/dom": "^1.5.4",
     "@floating-ui/react": "^0.26.6",
     "@popperjs/core": "^2.11.8",
     "antd": "^5.11.1",
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.3",
+    "framer-motion": "^11.0.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.2",
     "react-dom": "^18.2.0",

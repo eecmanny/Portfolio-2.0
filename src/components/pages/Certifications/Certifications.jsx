@@ -4,9 +4,8 @@ const { Panel } = Collapse;
 export default function Certifications({ currentPage, handlePageChange }) {
   return (
     <div className="webPageCert">
-      {/* <div>
-                <img className="page-background" src="\images\background\programming-hd-2eo94s73hxhwjcta.jpg" alt="laptop background image"></img>
-            </div> */}
+
+      <img className="cPage-background" src="/public/images/background/programming-hd-2eo94s73hxhwjcta.jpg" alt="background" />
       <section className="certificationSection">
         <h1 className="CertificatiionTitle certText">Resume</h1>
         <ul className="CertificatiionList">
@@ -81,29 +80,22 @@ export default function Certifications({ currentPage, handlePageChange }) {
             </Panel>
           </Collapse>
 
-          <Collapse className='angular cBoxes'>
-            <h3>
-              Angular.
-            </h3>
-            <Panel header="Certificate" key="1">
-              <p>
-              </p>
-            </Panel>
-          </Collapse>
-
           <Collapse className='typescript cBoxes'>
             <h3>
               TypeScript
             </h3>
             <Panel header="Certificate" key="1">
-              <p>
-              </p>
+              <div>
+                  {/* <p>View my LinkedIn profile <a href="https://www.linkedin.com/in/emmanuel-cordero-a91519195/">here</a>
+                  </p> */}
+                  <embed src="assets\TypeScript.pdf" width="750px" height="600px" type="application/pdf" />
+                </div>
             </Panel>
           </Collapse>
 
           <Collapse className='cloudServers cBoxes'>
             <h3>
-              Cloud Servers
+              Cloud Servers - In-Process
             </h3>
             {/*             <Panel header="Certificate" key="1">
               <p>
@@ -126,35 +118,45 @@ export default function Certifications({ currentPage, handlePageChange }) {
             </Panel>
           </Collapse>
 
+                    {/* <Collapse className='angular cBoxes'>
+            <h3>
+              Angular.
+            </h3>
+            <Panel header="Certificate" key="1">
+              <p>
+              </p>
+            </Panel>
+          </Collapse> */}
+
           <Collapse className='python cBoxes'>
             <h3>
-              Python
+              Python - In-Process
             </h3>
             <Panel header="Certificate In Process" key="1">
-            <p>
+              <p>
                 In Process
               </p>
             </Panel>
 
             <Panel h2 header="Front-end Proficiencies" key="2">
-            <p>
+              <p>
                 In Process
               </p>
             </Panel>
             <Panel header="Back-end Proficiencies" key="3">
-            <p>
+              <p>
                 In Process
               </p>
             </Panel>
 
             <Panel header="Other Proficiencies" key="4">
-            <p>
+              <p>
                 In Process
               </p>
             </Panel>
           </Collapse>
 
-          <Collapse className='codeOfEthic cBoxes'>
+          {/* <Collapse className='codeOfEthic cBoxes'>
             <h3>
               Code of Ethic.
             </h3>
@@ -162,7 +164,7 @@ export default function Certifications({ currentPage, handlePageChange }) {
               <p>
               </p>
             </Panel>
-          </Collapse>
+          </Collapse> */}
         </ul>
       </section>
     </div>
