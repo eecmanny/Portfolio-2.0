@@ -28,7 +28,8 @@ export default function Portfolio() {
                         <Panel header="Descrition" key="7">
                             <div class="card-content">
                                 <div class="content">
-                                The purpose of this website is to recommend top-20 cinema movies to users based on the current weather at their location. It uses 2 APIs a OpenWeather API and TMDB Movie API. The weather API pulls the LAT and LON from the bowser location given and fetches the current weather in that location. The Movie API pulls the Genre, Poster, and descriptions of movies that are currently out in theaters and assignes them genres ids Combined, we assigned every weather option with an movie genre, so when a specific weather comes up it will presesnt the themes movie. The following are links to the deployed site and github repository. 
+                                The purpose of this website is to recommend top-20 cinema movies to users based on the current weather at their location. It uses 2 APIs a OpenWeather API and TMDB Movie API. The weather API pulls the LAT and LON from the bowser location given and fetches the current weather in that location. The Movie API pulls the Genre, Poster, and descriptions of movies that are currently out in theaters and assignes them genres ids Combined, we assigned every weather option with an movie genre, so when a specific weather comes up it will presesnt the themes movie.
+                                {/*  The following are links to the deployed site and github repository.  */}
                                 {/* https://github.com/eecmanny/Weather-To-Watch https://eecmanny.github.io/Weather-To-Watch/ The following images demonstrate the web application's appearance. */}
                                     {/* <a>@bulmaio</a>.
                                     <a href="#">#css</a> <a href="#">#responsive</a>
