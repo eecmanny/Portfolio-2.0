@@ -106,7 +106,7 @@ function Contact() {
               <li><a className="c-info" href="tel:860-975-7480">860-975-7480</a></li>
               <li><a className="c-info" href="mailto:eec123manny@gmail.com">eec123manny@gmail.com</a></li>
               {/* <li><a className="c-info" href="#">Future Placeholder</a></li> */}
-              <li><a className="p-info" href="https://www.linkedin.com/in/emmanuel-cordero-a91519195/">Linkdin</a></li>
+              <li><a className="p-info" href="https://www.linkedin.com/in/emmanuel-cordero-a91519195/">Linkedin</a></li>
               <li><a className="p-info" href="https://github.com/eecmanny">Github</a></li>
               {/* <li><a li className="p-info" href="#">Future Placeholder</a></li> */}
             </ul>
