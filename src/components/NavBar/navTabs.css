@@ -40,9 +40,9 @@ nav-link {
     flex-direction: column;
   }
 
-  /* .navbar-brand, .navbar-tabs {
-    flex-direction: column;
-} */
+  .container-fluid {
+width: 100%;
+  }
   
   .nav-item {
     /* margin-left: 1px; */

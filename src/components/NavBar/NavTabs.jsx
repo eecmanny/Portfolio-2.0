@@ -9,17 +9,6 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='logoBody'>
 
-      {/* <Link as={NextLink} href='/' {...linkStyles} _hover={{ textDecoration: 'underline' }}>
-          Home
-        </Link>
-        <Link as={NextLink} href="/projects" {...linkStyles} _hover={{ textDecoration: 'underline' }}>
-          Projects
-        </Link>
-        <Link href="/resume.pdf" download="resumepdf.pdf" {...linkStyles} _hover={{ textDecoration: 'underline' }}>
-          Resume <DownloadIcon  pb='1px'/>
-        </Link> */}
-
-
       <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div className="container-fluid">
           <a
@@ -31,10 +20,10 @@ function NavTabs({ currentPage, handlePageChange }) {
             >Portfolio 2.0
               <img className="navLogoImage" src="./images/logoImage.jpg" alt="profileImage" />
             </a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          </a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
-          </a>
 
 
           <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
