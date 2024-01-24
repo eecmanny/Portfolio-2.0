@@ -57,7 +57,7 @@ function Contact() {
 
     return (
         <section className="webPageContact" >
-            <img className="cPage-background" src="/public/images/background/email-messages-network-circuit-board-link-connection-technology.jpg" alt="background" />
+            <img className="cPage-background" src="\images\background/email-messages-network-circuit-board-link-connection-technology.jpg" alt="background" />
 
 
             <h1>Contact me</h1>

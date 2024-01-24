@@ -3,7 +3,7 @@ export default function AboutMe() {
   return (
     <section className="profile-section webPageAboutMe">
       
-      <img className="webPageAboutMeTest" src="../../../../public/images/background/pexels-pixabay-270366.jpg" alt="background" />
+      <img className="webPageAboutMeTest" src="\images\background/pexels-pixabay-270366.jpg" alt="background" />
 <div className="inner-profile-section">
 
 

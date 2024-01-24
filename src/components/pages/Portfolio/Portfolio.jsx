@@ -11,7 +11,7 @@ export default function Portfolio() {
 
 
 
-            <img className="portBackgroundImg" src="/public/images/background/istockphoto-537331500-612x612.jpg" alt="background" />
+            <img className="portBackgroundImg" src="\images\background\istockphoto-537331500-612x612.jpg" alt="background" />
 
             <section className="work inner-port-section">
 

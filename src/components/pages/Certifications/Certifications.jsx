@@ -5,7 +5,7 @@ export default function Certifications({ currentPage, handlePageChange }) {
   return (
     <div className="webPageCert">
 
-      <img className="cPage-background" src="/public/images/background/programming-hd-2eo94s73hxhwjcta.jpg" alt="background" />
+      <img className="cPage-background" src="\images\background\programming-hd-2eo94s73hxhwjcta.jpg" alt="background" />
       <section className="certificationSection">
         <h1 className="CertificatiionTitle certText">Resume</h1>
         <ul className="CertificatiionList">
