@@ -1,37 +1,5 @@
-// // Import into Portfolio jsx
-// export default function Contact() {
-//   return (
-//     <section className="contact-Page-layout">
-//       <h1 className="contact-Page-title">Contact Page</h1>
-//       <p className="contact-layout">
-//         <div>
-
-//         </div>
-//         <div>
-//           <section className="contactCard">
-//             <h3>Contact Form</h3>
-//             <form className="formCard">
-//               <label for="name">Name:</label>
-//               <input type="text" id="name" name="name" placeholder="Your name.." required></input>
-//               <label for="email">Email:</label>
-//               <input type="email" id="email" name="email" placeholder="Your email.." required></input>
-//               <label for="subject">Message:</label>
-//               <textarea id="subject" name="subject" placeholder="Write something.." required></textarea>
-//               <input type="submit" value="Submit"></input>
-//             </form>
-//           </section>
-//         </div>
-//       </p>
-//     </section>
-//   );
-// }
-
-// Contact component
-
-
 import { useState, useRef } from 'react';
-//contact stylesheet
-import "./Contact.css"
+import "./contact.css"
 
 //contact form
 function Contact() {
