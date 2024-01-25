@@ -14,13 +14,21 @@ export default function AboutMe() {
       </a>
       <h1 className="bioText">About Page</h1>
       <p className="bioText">
-        "I am a highly motivated individual with a diverse background and a strong commitment to excellence. With a solid educational foundation, I bring a combination of technical expertise and practical skills to the table. Known for my reliability and ability to multitask effectively, I thrive in professional environments and am always eager to expand my skill set to enhance departmental efficiency and productivity.
+      I am a dedicated and results-driven individual with a diverse background, passionate about pursuing a rewarding career in web development and software solutions. Committed to excellence, I bring a solid educational foundation and a unique blend of technical expertise and practical skills to the table.
+      </p>
+      <p className="bioText">
+  I thrive in professional environments and am always eager to expand my skill set to contribute to innovative projects. My career journey has spanned various roles, providing me with a versatile skill set that aligns seamlessly with the dynamic nature of web development and software solutions.
+</p>
 
-        My career journey has taken me through various roles, from real estate sales and administrative work to hands-on technical positions. I excel in real estate sales, where I handle administrative tasks, support clients, and drive business growth through advertising and prospecting. In the engineering field, I have worked as an Engineering Lab Technician, specializing in solenoid products, quality procedures, and high-pressure systems. My earlier experience as a Detector's Technician at Mirion Technologies involved complex tasks such as radiation measurement, circuit troubleshooting, and handling various nuclear instrumentation modules.
+<p className="bioText">
+In previous roles, I excelled in administrative tasks, supported clients, and drove business growth as a Real Estate Sales Associate. While working in the engineering field, I am currently an Engineering Lab Technician, specializing in solenoid products, quality procedures, and high-pressure systems. My true passion lies in crafting digital solutions, and I am excited to channel my skills into web/software development.
+</p>
+<p className="bioText">
+In my previous role as a Detector's Technician at Mirion Technologies, I undertook complex tasks such as radiation measurement, circuit troubleshooting, and handling various nuclear instrumentation modules. My educational journey includes a high school diploma with a focus on electronics technology, and I recently added Uconn’s Full Stack Coding certification to my list.
+</p>
+<p className="bioText">
+Throughout my life, I have honed my skills in technical, administrative, and interpersonal areas, making me a versatile and adaptable professional ready to excel in the ever-evolving world of web development and software solutions. I am eager to leverage my diverse background to contribute effectively to cutting-edge projects and continue learning and growing in these exciting fields.
 
-        Education-wise, I hold a high school diploma with a focus on Electronics Technology and have embarked on a journey to become a licensed Real Estate Salesperson.
-
-        Throughout my life, I have honed my skills in a wide range of areas, including technical, administrative, and interpersonal, making me a versatile and adaptable professional ready to excel in new challenges and environments."
       </p>
       </div>
     </section>

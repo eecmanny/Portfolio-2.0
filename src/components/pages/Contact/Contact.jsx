@@ -57,12 +57,12 @@ function Contact() {
 
     return (
         <section className="webPageContact" >
-            <img className="cPage-background" src="\images\background/email-messages-network-circuit-board-link-connection-technology.jpg" alt="background" />
+            <img className="cPage-background" src="\images\background/email-messages-network-circuit-board-link-connection-technology2.jpg" alt="background" />
 
 
             <h1>Contact me</h1>
 
-            <form className="contact-form" onSubmit={handleSubmit} ref={formRef}>
+            <form className="contact-formTop contact-form" onSubmit={handleSubmit} ref={formRef}>
                 <div className="form-group">
                     <input
                         type="text"
@@ -88,7 +88,7 @@ function Contact() {
                 <div className="form-group">
                     <textarea
                         name="message"
-                        placeholder='Message'
+                        placeholder='Message (Demo Purposes Only)'
                         value={message}
                         onChange={handleChange}
                         onBlur={() => handleBlur("message")}
