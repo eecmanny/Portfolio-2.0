@@ -107,7 +107,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                     active
                     href="#contact"
                     onClick={() => {
-                      handlePageChange(window.open("/assets/Coding Resume.pdf"));
+                      handlePageChange(window.open("/assets/Coding Resume Updated.pdf"));
                       window.location.reload(false);
                     }}
                   >

@@ -17,7 +17,7 @@ export default function Certifications({ currentPage, handlePageChange }) {
               <Panel header="Resume" key="1">
                 <div>
                   <p>View my LinkedIn profile <a href="https://www.linkedin.com/in/emmanuel-cordero-a91519195/">here</a></p>
-                  <embed src="assets\Coding Resume.pdf" width="750px" height="600px" type="application/pdf" />
+                  <embed src="assets\Coding Resume Updated.pdf" width="750px" height="600px" type="application/pdf" />
                 </div>
               </Panel>
             </Collapse>
@@ -86,10 +86,61 @@ export default function Certifications({ currentPage, handlePageChange }) {
             </h3>
             <Panel header="Certificate" key="1">
               <div>
-                  {/* <p>View my LinkedIn profile <a href="https://www.linkedin.com/in/emmanuel-cordero-a91519195/">here</a>
+                {/* <p>View my LinkedIn profile <a href="https://www.linkedin.com/in/emmanuel-cordero-a91519195/">here</a>
                   </p> */}
-                  <embed src="assets\TypeScript.pdf" width="750px" height="600px" type="application/pdf" />
-                </div>
+                <embed src="assets\TypeScript.pdf" width="750px" height="600px" type="application/pdf" />
+              </div>
+            </Panel>
+          </Collapse>
+
+
+
+          
+          
+        
+
+          {/* <Collapse className='angular cBoxes'>
+            <h3>
+              Angular.
+            </h3>
+            <Panel header="Certificate" key="1">
+              <p>
+              </p>
+            </Panel>
+          </Collapse> */}
+
+          <Collapse className='python cBoxes'>
+            <h3>
+              Python 3
+            </h3>
+
+
+            <Panel header="Certificate" key="1">
+            <div>
+              {/* <p>View my LinkedIn profile <a href="https://www.linkedin.com/in/emmanuel-cordero-a91519195/">here</a>
+                  </p> */}
+              <embed src="assets\Python3_cert.pdf" width="750px" height="600px" type="application/pdf" />
+            </div>
+            </Panel>
+
+            {/* <Panel h2 header="Front-end Proficiencies" key="2">
+              <p>
+                In Process
+              </p>
+            </Panel> */}
+            <Panel header="Back-end Proficiencies" key="3">
+              <p>
+                Flask - In Process
+              </p>
+              <p>
+                Django - In Process
+              </p>
+            </Panel>
+
+            <Panel header="Other Proficiencies" key="4">
+              <p>
+                In Process
+              </p>
             </Panel>
           </Collapse>
 
@@ -112,44 +163,6 @@ export default function Certifications({ currentPage, handlePageChange }) {
               </p>
             </Panel>
             <Panel header="Google Cloud" key="4">
-              <p>
-                In Process
-              </p>
-            </Panel>
-          </Collapse>
-
-                    {/* <Collapse className='angular cBoxes'>
-            <h3>
-              Angular.
-            </h3>
-            <Panel header="Certificate" key="1">
-              <p>
-              </p>
-            </Panel>
-          </Collapse> */}
-
-          <Collapse className='python cBoxes'>
-            <h3>
-              Python - In-Process
-            </h3>
-            <Panel header="Certificate In Process" key="1">
-              <p>
-                In Process
-              </p>
-            </Panel>
-
-            <Panel h2 header="Front-end Proficiencies" key="2">
-              <p>
-                In Process
-              </p>
-            </Panel>
-            <Panel header="Back-end Proficiencies" key="3">
-              <p>
-                In Process
-              </p>
-            </Panel>
-
-            <Panel header="Other Proficiencies" key="4">
               <p>
                 In Process
               </p>
