@@ -93,21 +93,26 @@ export default function Certifications({ currentPage, handlePageChange }) {
             </Panel>
           </Collapse>
 
-
-
-          
-          
-        
-
-          {/* <Collapse className='angular cBoxes'>
+          <Collapse className='C# cBoxes'>
             <h3>
-              Angular.
+              C#
             </h3>
             <Panel header="Certificate" key="1">
+            <div>
+                {/* <p>View my LinkedIn profile <a href="https://www.linkedin.com/in/emmanuel-cordero-a91519195/">here</a>
+                  </p> */}
+                <embed src="assets\CSharp_cert.pdf" width="750px" height="600px" type="application/pdf" />
+              </div>
+            </Panel>
+            <Panel header="Back-end Proficiencies" key="3">
               <p>
+                ASP.NET Core
+              </p>
+              <p>
+                Entity Framework
               </p>
             </Panel>
-          </Collapse> */}
+          </Collapse>
 
           <Collapse className='python cBoxes'>
             <h3>
